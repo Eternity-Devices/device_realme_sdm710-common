@@ -162,7 +162,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.media.recorder-max-base-layer-fps=60
+    ro.media.recorder-max-base-layer-fps=60 \
+    debug.stagefright.ccodec=4 \
+    vendor.media.omx=0
 
 # Phantom process monitoring
 PRODUCT_PROPERTY_OVERRIDES += \

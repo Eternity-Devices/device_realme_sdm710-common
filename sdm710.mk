@@ -363,17 +363,14 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    libc2dcolorconvert \
-    libOmxAacEnc \
-    libOmxAmrEnc \
+    libmm-omxcore \
     libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
+    libstagefrighthw \
     libOmxVdec \
+    libOmxVdecHevc \
     libOmxVenc \
     libOmxVidcCommon \
-    libstagefrighthw
+    libc2dcolorconvert
 
 # Perf
 PRODUCT_COPY_FILES += \
