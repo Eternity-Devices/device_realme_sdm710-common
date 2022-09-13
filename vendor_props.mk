@@ -209,13 +209,19 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# Transcoding related property.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+   debug.media.transcoding.codec_max_operating_rate_720P=480 \
+   debug.media.transcoding.codec_max_operating_rate_1080P=240 \
+   debug.media.transcoding.codec_max_operating_rate_4k=120
+
 # Usb
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.vendor.usb.config.extra=none \
-    vendor.usb.dpl.inst.name=dpl \
-    vendor.usb.rmnet.func.name=rmnet_bam \
-    vendor.usb.rmnet.inst.name=rmnet \
-    vendor.usb.rndis.func.name=rndis_bam
+   persist.vendor.usb.config.extra=none \
+   vendor.usb.dpl.inst.name=dpl \
+   vendor.usb.rmnet.func.name=rmnet_bam \
+   vendor.usb.rmnet.inst.name=rmnet \
+   vendor.usb.rndis.func.name=rndis_bam
 
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
