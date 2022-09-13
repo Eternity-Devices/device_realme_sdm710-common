@@ -50,6 +50,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=false \
     iorapd.readahead.enable=false
 
+# Avgqp
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.qc2.venc.avgqp.enable=1
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee \
