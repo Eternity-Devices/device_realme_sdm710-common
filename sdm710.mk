@@ -89,6 +89,8 @@ PRODUCT_PACKAGES += \
     audio.primary.sdm710 \
     audio.r_submix.default \
     audio.usb.default \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor \
     libaudio-resampler \
     libaudioroute \
     libqcompostprocbundle \
