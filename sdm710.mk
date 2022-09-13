@@ -216,6 +216,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     gralloc.sdm710 \
     libdisplayconfig \
+    libdisplayconfig.system.qti \
     libdisplayconfig.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
